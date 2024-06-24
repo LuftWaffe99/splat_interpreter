@@ -1,0 +1,21 @@
+program
+	i : Integer;
+	Fibonacci : Integer;
+	temp1 : Integer;
+	temp2 : Integer;
+	seqlen : Integer;
+begin
+	i := 1;
+	Fibonacci := 0;
+	temp1 := 1;
+	temp2 := 0;
+	seqlen := 10;
+	while (i <= seqlen) do
+		print Fibonacci;
+		print_line;
+		temp2 := Fibonacci;
+		Fibonacci := temp1;
+		temp1 := (temp1 + temp2);
+		i := (i + 1);
+	end while;		
+end;

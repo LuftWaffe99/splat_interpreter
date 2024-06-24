@@ -1,0 +1,23 @@
+program 
+
+	x : Integer;
+	
+	Fibbonaci (n : Integer): Integer is
+	begin
+		if (n <= 0) then
+			return 0;
+		else
+			if (n == 1) then
+				return 1;
+			else
+				return (Fibbonaci((n-1))+Fibbonaci((n-2)));
+			end if;
+		end if;
+	
+	end;
+
+begin
+
+	x := 8;
+	print Fibbonaci(x);
+end;

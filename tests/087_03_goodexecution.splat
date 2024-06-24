@@ -1,0 +1,9 @@
+program  
+	i:Integer;
+begin
+	while (i<5) do
+	if (i==2)	then print i; 
+	end if; 
+	i:=(i+1);
+	end while;
+end;

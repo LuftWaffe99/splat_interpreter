@@ -1,0 +1,16 @@
+program 
+	x : Integer;
+	y : Integer;
+	z : Boolean;
+begin
+	x := 3;
+	x:= (-5);
+	y := (x + 5);
+	z:= true;
+
+	if z  then
+		x := ((2 * y) + 1);
+	end if;
+
+	print x;
+end;

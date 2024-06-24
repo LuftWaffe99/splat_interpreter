@@ -1,0 +1,11 @@
+program
+
+	donothing(x : Integer) : Integer is
+		while : Integer;
+	begin
+		return (while + x);
+	end ;
+	
+begin
+	print donothing(22);
+end;

@@ -1,0 +1,8 @@
+program 
+	a : Integer;
+	c : Integer;
+	begin
+		a := 48;
+		c := (a + 492);
+		print c;
+	end;

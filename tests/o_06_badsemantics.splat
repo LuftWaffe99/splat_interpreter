@@ -1,0 +1,14 @@
+program
+	donothing(x : Integer) : Integer is
+	begin
+		x := (x + 1);
+		return 2;
+	end ;
+	
+begin
+	print "Howdy!";
+	
+	if (x + x) then
+		print_line;
+	end if; 
+end;

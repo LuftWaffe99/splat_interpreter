@@ -1,0 +1,11 @@
+program
+	
+begin
+	while (i<20)
+	do
+		i := (i*3);
+	end while;
+	(i < (i*3));
+	return;
+	return (5-i);
+end;

@@ -1,0 +1,13 @@
+program
+    a:Integer;
+
+	donothing(x : Integer) : Integer is
+	begin
+		x := (x + 1);
+		return 1;
+	end ;
+	
+begin
+	a := (-true);
+	print "Howdy!";
+end;

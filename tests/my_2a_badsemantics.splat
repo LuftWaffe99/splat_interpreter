@@ -1,0 +1,19 @@
+program
+
+	kool : String;
+	
+	lilu(x:Integer) : Integer is
+		b : Boolean;
+	begin
+		print_line;
+		return "Kilo";
+	end;
+		
+begin	
+	if (7 <= 3) then
+		kool := "not kraken";
+	else
+		kool := "kraken";
+	end if;
+	print kool;
+end;

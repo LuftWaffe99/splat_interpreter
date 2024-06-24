@@ -1,0 +1,7 @@
+program
+	boat : String;
+begin
+	some_function_name();
+	print another_function(4,4,5);
+	if y := x; then x := y; end if;
+end;

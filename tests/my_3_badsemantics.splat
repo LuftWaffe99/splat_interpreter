@@ -1,0 +1,10 @@
+program
+
+	Pim : String;
+	Lang: Boolean;
+	Rhodes: Integer;
+	Rose: Integer;
+		
+begin
+	Lasagna(withChips);
+end;

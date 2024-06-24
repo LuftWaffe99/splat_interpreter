@@ -1,0 +1,8 @@
+program
+	boat : String;
+begin
+	some_function_name();
+	print another_function(4,4,5);
+	tt := null;
+	
+end;

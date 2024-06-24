@@ -1,0 +1,13 @@
+program
+
+	kool : String;
+	kraken : Boolean;
+		
+begin	
+
+	if (7 <= 3) then
+		kool := "kraken";
+	else
+		kool := (not kraken);
+	end if;
+end;

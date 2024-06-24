@@ -1,0 +1,15 @@
+program
+	
+	headphones() : void is
+	begin
+		print "Headphones";
+	end;
+	
+	number:Integer;
+	bool:Boolean;
+	
+begin
+	headphones();
+	number := true;
+	print (number*number);
+end;

@@ -1,0 +1,17 @@
+program
+    a : Integer;
+    b : Integer;
+    is_sum : Boolean;
+    sum : Integer;
+begin
+    a := 5;
+    b := ((a - 1) * 5);
+    is_sum := true;
+    if is_sum then
+        sum := (a + b);
+    else
+        sum := (-1);
+    end if;
+
+    print sum;
+end;

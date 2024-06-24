@@ -1,0 +1,23 @@
+program
+
+Num1 : Integer;
+Num2 : Integer;
+
+addNumbers(num1 : Integer, num2 : Integer) : Integer is 
+	sum : Integer;
+begin
+	sum := (num1 + num2);
+	return sum;
+end ;
+
+begin
+	Num1 := 17;
+	Num2 := 13;
+	
+	print Num1;
+	print " + ";
+	print Num2;
+	print "= ";
+	print addNumbers(Num1, Num2);
+	print_line;
+end ;

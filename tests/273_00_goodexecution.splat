@@ -1,0 +1,12 @@
+program 
+	x : Integer;
+	y : Integer;
+	res : Integer;
+begin
+	x := 125;
+	y := 123;
+	res := (x % y);
+	if (res == 2) then
+		print "Amina";
+	end if;
+end;

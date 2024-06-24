@@ -1,0 +1,27 @@
+program
+x : Integer;
+y : Integer;
+z : Integer;
+yn : Boolean;
+
+check_the_number(a : Integer, b : Integer, c : Integer) : Boolean is
+computation : Integer;
+begin
+computation := ((a*a)+(b*b));
+if (computation > c) then
+return true;
+else
+return false;
+end if;
+end;
+
+begin
+x := 10;
+y := 0;
+z := ((((x*x)*x)-((y*y)*10))+(x+(y/10)));
+yn := check_the_number(x,y,z);
+print z;
+print_line;
+print yn;
+end;
+

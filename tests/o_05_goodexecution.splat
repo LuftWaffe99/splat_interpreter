@@ -1,0 +1,14 @@
+program
+	donothing(x : Integer) : Integer is
+	begin
+		x := (x + 1);
+		return 100;
+	end ;
+	c : Boolean;
+begin
+	print "Howdy!";
+
+	while ((2>9) and (not c)) do
+	    print_line;
+	end while;
+end;

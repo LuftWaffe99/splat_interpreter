@@ -1,0 +1,14 @@
+program
+	donothing(x : Integer) : Integer is
+	begin
+		x := (x + 1);
+		return 10;
+	end ;
+
+	a : Boolean;
+	b : Integer;
+	c : Integer;
+begin
+	c:=donothing(c);
+    donothing(a);
+end;

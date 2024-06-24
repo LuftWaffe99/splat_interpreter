@@ -1,0 +1,23 @@
+program
+	donothing(x : Integer) : Integer is
+	begin
+		x := (x + 1);
+		return 10;
+	end ;
+
+	do_it(x : Integer) : void is
+	begin
+	    if ( x > 10) then
+	        return 10;
+	    end if;
+	    return 1;
+	end;
+
+	a : Boolean;
+	b : Integer;
+	c : Integer;
+begin
+	c:=donothing(c);
+    do_it(((10+c)+b));
+    donothing(a);
+end;

@@ -1,0 +1,4 @@
+we cannot break a string constant across two lines
+like this "hello
+world!"
+as this is not a legal token

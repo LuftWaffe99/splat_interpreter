@@ -1,0 +1,20 @@
+program
+
+	donothing(fun : Integer) : Integer is
+	begin
+		fun := (fun + 20);
+		return fun;
+	end ;
+	
+	funny (nofun : Boolean) : void is
+	begin
+		print "Boo!";
+	end;
+	
+	y : Integer;
+	
+begin
+	funny(true);
+	print donothing(3);
+	print "Howdy!";
+end;

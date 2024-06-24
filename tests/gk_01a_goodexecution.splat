@@ -1,0 +1,9 @@
+program 
+flag:Boolean;
+begin
+  flag := true;
+  if (flag == true)
+  then
+  print "Hello, world.";
+  end if;
+end;

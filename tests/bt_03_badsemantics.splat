@@ -1,0 +1,10 @@
+program
+	func (a:Integer, b:Boolean): Boolean is 
+		begin
+			b:=(not b);
+			print (a >= 7);
+			return a;
+		end;
+begin
+	func(2, true);
+end;

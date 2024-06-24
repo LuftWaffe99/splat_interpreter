@@ -1,0 +1,33 @@
+program
+
+	goDown(n : Integer) : Integer is
+		junk : Integer;
+	begin
+		return (n / 2);
+	end;
+	
+	hailstone(n : Integer) : void is
+		next : Integer;
+	begin
+		print n;
+		print_line;
+		if (n == 1) then
+			return;
+		end if;
+		if ((n % 2) == 0) then
+			next := goDown(n);
+		else
+			next := goUp(n);
+		end if;
+		hailstone(next);
+	end;
+	
+	goUp(next : Integer) : Integer is
+	begin
+		next := ((3 * next) + 1);
+		return next;
+	end;
+	
+begin
+	hailstone(100);
+end;

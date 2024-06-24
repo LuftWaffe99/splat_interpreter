@@ -1,0 +1,17 @@
+program
+	i: Integer;
+	j: Integer;
+	n: Integer;
+begin
+	i:=0;
+	n:=5;
+	while (i < n) do
+		j:=0;
+		while (j <= i) do
+			print "*";
+			j := (j + 1);
+		end while;
+		i := (i + 1);
+		print_line;
+	end while;
+end;

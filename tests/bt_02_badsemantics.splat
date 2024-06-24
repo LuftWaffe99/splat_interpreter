@@ -1,0 +1,5 @@
+program
+	names: String;
+begin
+	if (3 == 3) then return; else print_line; end if;
+end;

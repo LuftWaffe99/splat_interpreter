@@ -1,0 +1,17 @@
+program
+	
+	factorial (num:Integer): Integer is
+	
+	begin
+		if (num == 0) then
+			return 1;
+		else 
+			return (factorial((num - 1)) * num);
+		end if;
+	end;
+		
+begin
+	print "factorial of number 5 is equal to: ";
+	print factorial(5);
+	print_line; 
+end;

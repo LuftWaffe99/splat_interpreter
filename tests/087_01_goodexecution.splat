@@ -1,0 +1,10 @@
+program  
+	i:Integer;
+	i1:Integer;
+	i2:Integer;
+begin
+	i1:=5;
+	i2:=((i1*6)/2);
+	i:=(i1+i2);
+	print i ; 
+end;

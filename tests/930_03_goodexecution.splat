@@ -1,0 +1,10 @@
+program
+value : Boolean;
+n : Integer;
+begin
+while (not value) do
+n := (n + 1);
+if (n == 100) then value := true; end if;
+print n;
+end while;
+end;

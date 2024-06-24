@@ -1,0 +1,15 @@
+program
+	donothing(x : Integer) : Integer is
+	begin
+		x := (x + 1);
+		return 10;
+	end ;
+	a : Boolean;
+	b : Integer;
+	c : String;
+
+begin
+	if ((b + 10) > 10) then
+	    print (a + 1);
+	end if;
+end;

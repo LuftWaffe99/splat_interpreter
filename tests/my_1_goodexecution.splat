@@ -1,0 +1,18 @@
+program
+
+	looo : Integer;
+	
+	whileloop(x:Integer) : Integer is
+		b : Boolean;
+	begin
+		while (x >= 1) do
+			x := (x - 13);
+		end while;
+		return x;
+	end;
+
+begin
+	looo := whileloop(22);
+	print looo;
+	print_line;
+end;

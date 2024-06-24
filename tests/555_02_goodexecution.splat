@@ -1,0 +1,11 @@
+program
+
+x : Integer;
+y : Integer;
+
+begin 
+
+print "out1";
+print "out2";
+
+end;

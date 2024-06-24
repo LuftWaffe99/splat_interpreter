@@ -1,0 +1,17 @@
+program
+
+x : Integer;
+y : Integer;
+
+begin 
+
+x := 12;
+y := (10 + 5);
+
+while (x<=y) do
+	print x;
+	print_line;
+	x:=(x+1);
+end while;
+
+end;

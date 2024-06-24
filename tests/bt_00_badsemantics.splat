@@ -1,0 +1,14 @@
+program
+
+	donothing(w : Boolean, x : Integer) : Integer is
+		x : Integer;
+	begin
+		x := (x + 1);
+		return x;
+	end ;
+	
+begin
+	z := donothing((99 + "uh oh!"));
+	print "Howdy!";
+	return ok_for_parsing_but_not_typechecking;
+end;

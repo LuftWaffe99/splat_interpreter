@@ -1,0 +1,21 @@
+program
+    myFunction(param1: Integer,
+               param2: Boolean) : void is
+    begin
+        if param2 then
+            print "param2 is true";
+        else
+            print "param2 is false";
+        end if;
+		return;
+        print "myFunction() called";
+    end;
+    myInteger: Integer;
+    result: Integer;
+    myBoolean: Boolean;
+begin
+    myBoolean := true;
+    print "program started";
+    print_line;
+    myFunction(myInteger, myBoolean);
+end;

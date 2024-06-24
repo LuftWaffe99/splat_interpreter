@@ -1,0 +1,2 @@
+program started
+param2 is true

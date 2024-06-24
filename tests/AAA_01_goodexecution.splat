@@ -1,0 +1,47 @@
+program
+	
+	output(b : Integer) : void is
+	begin
+		output2pre(b);
+		print " on the wall";
+		print_line;
+	end;
+	
+	output2(b : Integer) : void is
+	begin
+		output2pre(b);
+		print_line;
+	end;
+	
+	output2pre(b : Integer) : void is
+	begin
+		print b;
+		print " bottles of kvass";
+	end;
+	
+	falling() : void is
+	begin
+		print "If one of them should happen to fall...";
+		print_line;
+	end;
+	
+	kvass(start : Integer) : void is
+	begin
+		if (start > 0) then
+			verse(start);
+			kvass((start-1));
+		end if;
+	end;
+	
+	verse(bottles : Integer) : void is
+	begin
+		output(bottles);
+		output2(bottles);
+		falling();
+		output((bottles - 1));
+		print_line;
+	end;
+	
+begin
+	kvass(100);
+end;

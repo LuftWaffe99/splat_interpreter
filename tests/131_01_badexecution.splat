@@ -1,0 +1,14 @@
+program
+RecArea : Integer;
+Height : Integer;
+RecWidth (ar : Integer, heig : Integer) : Integer is 
+	res : Integer;
+begin
+	res :=  (ar / heig);
+	return res;
+end;
+
+begin
+	RecArea := 10;
+	print RecWidth(RecArea,Height);
+end;

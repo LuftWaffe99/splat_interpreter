@@ -1,0 +1,13 @@
+program
+
+	donothing(fun : Integer) : Integer is
+	begin
+		fun := (fun + 20);
+		print fun;
+		return fun;
+	end ;
+	
+begin
+	print "Howdy!";
+	print donothing(22);
+end;

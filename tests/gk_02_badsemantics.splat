@@ -1,0 +1,11 @@
+program 
+flag:Boolean;
+begin
+  flag := (bad + idea);
+  if (flag == true)
+  then
+  print "Hello, world.";
+  else 
+  print_line;
+  end if;
+end;

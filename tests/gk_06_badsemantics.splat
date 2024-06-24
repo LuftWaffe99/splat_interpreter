@@ -1,0 +1,17 @@
+program
+	donothing(x : Integer) : Integer is
+	y: Integer;
+	x: Integer;
+	begin
+	 	x := (x + 1);
+		return x;
+	end ;
+	donothing2(x : Integer) : Integer is
+	begin
+		x := (x + 1);
+		return x;
+	end ;
+begin
+	print "Howdy!";
+		
+end;

@@ -1,0 +1,16 @@
+program
+	i_start : Integer;
+	i_end	: Integer;
+	i : Integer;
+begin
+	i_start := 4;
+	i_end := 10;
+	i := i_start;
+
+	while (i <= i_end)
+	do
+		print i;
+		print_line;
+		i := (i + 1);
+	end while;
+end;
